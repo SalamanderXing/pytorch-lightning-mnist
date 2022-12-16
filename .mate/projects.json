@@ -1,0 +1,37 @@
+{
+    "mnist_classifier": {
+        "name": "mnist_classifier",
+        "project": {
+            "models": {
+                "linear": {
+                    "name": "linear",
+                    "exports": [
+                        "Net"
+                    ],
+                    "errors": []
+                }
+            },
+            "data_loaders": {},
+            "trainers": {
+                "trainer": {
+                    "name": "trainer",
+                    "exports": [
+                        "MNISTModel"
+                    ],
+                    "errors": []
+                }
+            },
+            "experiments": {
+                "classif": {
+                    "name": "classif",
+                    "errors": [],
+                    "imports": [
+                        "models",
+                        "trainers"
+                    ]
+                }
+            }
+        },
+        "root": "/mnist_classifier"
+    }
+}
