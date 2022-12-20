@@ -1,1 +1,1 @@
-{"command": "train", "checkpoint_path": "results/classif/checkpoints", "save_dir": "results/classif", "default_checkpoint_location": "results/classif/checkpoints/checkpoint.ckpt"}
+{"command": "train", "checkpoint_path": "results/simple/checkpoints", "save_dir": "results/simple", "default_checkpoint_location": "results/simple/checkpoints/checkpoint.ckpt"}

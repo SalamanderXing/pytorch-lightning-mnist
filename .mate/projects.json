@@ -11,7 +11,15 @@
                     "errors": []
                 }
             },
-            "data_loaders": {},
+            "data_loaders": {
+                "mnist": {
+                    "name": "mnist",
+                    "exports": [
+                        "MNISTDataModule"
+                    ],
+                    "errors": []
+                }
+            },
             "trainers": {
                 "trainer": {
                     "name": "trainer",
@@ -22,12 +30,13 @@
                 }
             },
             "experiments": {
-                "classif": {
-                    "name": "classif",
+                "simple": {
+                    "name": "simple",
                     "errors": [],
                     "imports": [
                         "models",
-                        "trainers"
+                        "trainers",
+                        "data_loaders"
                     ]
                 }
             }
