@@ -5,7 +5,7 @@ from torchvision.datasets import MNIST
 from torch.utils.data import DataLoader, random_split
 from torchvision import transforms
 
-
+#####
 class MNISTDataModule(pl.LightningDataModule):
     def __init__(self, data_dir: str = "./data"):
         super().__init__()

@@ -1,2 +1,6 @@
-data/*
+data/
 results/*
+lightning_logs/
+*/venv/
+.mate/tmp
+.mate/*/venv/
